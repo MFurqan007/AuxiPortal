@@ -1,0 +1,69 @@
+.Card_Main{
+    width: 330px; 
+    height: 80px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex; 
+
+}
+
+.Card_Title{
+    color: black;
+    /*
+    background-color: aqua;    
+    */
+    
+    margin:0;
+    width: 230px;
+    max-height: 40px;
+    overflow: clip;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.Card_Detail{
+    color: #808080;
+    margin: 0; 
+    /*
+    background-color: antiquewhite;    
+    */    
+
+    
+    
+    margin-left: 5px;
+    font-size: 15px; 
+}
+
+.Card_TimeStamp{
+    margin: 0;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: auto;
+    /*
+    background-color: lightslategray;    
+    */
+
+    
+}
+.Card_in{
+    display: flex; 
+    /*
+    background-color: blueviolet;    
+    */
+
+    
+    height: 20px;
+    overflow: clip;
+    left: 0;
+}
+
+.Card_Info{
+    /*
+    background-color: blue;    
+    */
+    
+    flex: 9; 
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+}

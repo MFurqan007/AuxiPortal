@@ -1,0 +1,38 @@
+<table class ="DTable">
+                <thead>
+                    <tr>
+                        <th v-for= "heading in headings" :key= 'heading'>{{heading}}</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for= "item in DepartmentData" :key= 'item'>
+                        <td v-for= "heading in headings" :key= 'heading'>
+                            {{item[heading]}}
+                        </td>
+                        <td>
+                            <div style="display: flex">
+                                <p>Edit</p>
+                                <p>Delete</p>    
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            table, td, th{
+    border: 1px solid black; 
+}
+table{
+    border-collapse: collapse;
+}
+
+
+<div class ="SecondRow">
+                <div class= "InputTab">
+                    <!-- <p>Error Message</p> -->
+                    <!-- Display the error message here according to the input validation -->
+                    <!-- Use blog rocket site for applying watchers -->
+
+                    <input type="text" v-model= "DepartmentCode" name ="DCode" placeholder="Name of HOD" class ="InputField"/>
+                </div>
+            </div>

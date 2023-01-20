@@ -1,0 +1,285 @@
+
+.page{
+   height: 625px;
+   width: 1400px;
+   background-image: url(backdrop.svg); 
+   background-position: bottom center, 50%, 50%;
+   position: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.box{
+   margin-top: 100px;
+   margin-bottom: auto;
+   margin-left: 200px;
+   width: 1000px; 
+   height: 450px; 
+   background-color: aqua;
+   display: flex;
+   border-radius: 20px 20px 20px 20px;
+
+}
+.left{
+   background-color:#0571F0;
+   width: 500px;
+   height: 450px;
+   border-radius: 20px 0px 0px 20px;
+   box-shadow: -2px 0px 40px rgba(0, 0, 0, 0.25); 
+}
+.logo{
+   width: 150px;
+   height: 150px;
+   margin-left: 175px;
+   margin-top: 50px;
+   /*
+   background-color: aquamarine;
+   */
+}
+.title{
+   position: fixed;
+   width: 260px;
+   height: 40px;
+   margin-left: 120px;
+   margin-top: 10px;
+   /*
+   background-color: red;
+   */
+}
+.title-text{
+   margin: 0;
+   position: relative;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-size: 35px;
+   color: #FFFFFF;
+   margin-bottom: 20px;
+   font-weight: 400;
+   text-align: center;
+   /*
+   background-color: aquamarine;
+   */
+}
+.phone_Number{
+   position: fixed;
+   width: 170px;
+   height: 30px; 
+   margin-left: 110px;
+   margin-top: 60px;
+   /*
+   background-color: blueviolet;
+   */ 
+}
+.phone_icon{
+   position: fixed; 
+   width: 40px; 
+   height: 30px; 
+
+   /*icon css*/
+   padding-top:7.5px;
+   /*
+   background-color: chartreuse;
+   */   
+}
+.phone_text{
+   position: fixed;
+   margin-left: 40px; 
+   width: 130px;
+   height: 30px;
+   margin-top: 5px;
+   /*
+   background-color: brown;
+   */
+}
+.Email{
+   position: fixed;
+   width: 280px;
+   height: 30px; 
+   margin-left: 110px;
+   margin-top: 105px;
+   /*
+   background-color:burlywood;
+   */
+}
+.email_icon{
+   position: fixed; 
+   width: 40px; 
+   height: 30px; 
+   
+   /*icon css*/
+   padding-top:7.5px;
+   /*
+   background-color: chartreuse;
+   */
+}
+.email_text{
+   position: fixed;
+   margin-left: 40px; 
+   width: 240px;
+   height: 30px;
+   margin-top: 5px;
+   /*
+   background-color:chocolate;
+   */
+}
+.text{
+   margin: 0;
+   position: fixed;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-size: 20px;
+   color: #FFFFFF;   
+}
+.right{
+   background-color:#FFFFFF;
+   width: 500px;
+   height: 450px;
+   border-radius: 0px 20px 20px 0px;
+   box-shadow: 2px 0px 40px rgba(0, 0, 0, 0.25); 
+}
+.Field1{
+   margin-left: 75px;
+}
+
+.Field2{
+   margin-left: 75px;
+}
+
+input[type=text] {
+   background: #F3F3F3;
+   margin-top: 0px;
+   width: 345px;
+   height: 45px;
+   border: 1px solid  #F3F3F3;
+   box-sizing: border-box;
+   border-radius: 10px 10px 10px 10px;
+
+}
+
+input[type=text]:focus { 
+   outline: none !important;
+   border: 2px solid #0571F0;
+}
+
+input[type='text']::placeholder{
+   padding-left: 15px;
+   color: black;
+}
+
+input[type=password] {
+   background: #F3F3F3;
+   margin-top: 10px;
+   width: 345px;
+   height: 45px;
+   box-sizing: border-box;
+   border: 1px solid  #F3F3F3;
+   border-radius: 10px 10px 10px 10px;
+}
+
+input[type=password]:focus { 
+   outline: none !important;
+   border: 2px solid #0571F0;
+}
+
+input[type='password']::placeholder{
+   padding-left: 15px;
+   color: black;
+}
+
+.loginbutton{
+   position: fixed;
+   width: 345px;
+   height: 45px;
+   margin-top: 60px;
+   margin-left: 75px;
+   border: 1px solid #0571F0;
+   background: #0571F0;
+   border-radius: 10px;
+   position: absolute;
+  
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+.loginbutton:hover{
+   background: #2489FF;
+      cursor: pointer;
+}
+
+.form_top{
+   margin: 0;
+   margin-left: 75px;
+   margin-top: 90px;
+   /*
+   background-color: aqua;
+   */
+   width: 375px;
+   height: 60px;
+}
+
+.form_title{
+   /*
+   background-color: antiquewhite;
+   */
+   margin: 0; 
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 34px;
+}
+.form_title_second{
+   /*
+   background-color: darkcyan;
+   */
+   margin: 0;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: #C4C4C4;
+}
+
+.form_forgot_pass{
+   /*
+   background-color: aqua;
+   */
+   width: 95px;
+   height: 15px;
+   margin-left: 325px;
+}
+.forgot_password{
+   margin: 0;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   color: black;
+}
+.forgot_password:hover{
+   color:#0571F0;
+   cursor: pointer;
+}
+
+.error-messg{
+   margin: 0;
+   margin-top: 15px;
+   margin-left: 80px;
+   /*
+   background-color: aqua;
+   */
+   width: 250px;
+   height: 20px;
+}
+.error-messg-text{
+   margin: 0;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: red;
+}

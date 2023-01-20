@@ -1,0 +1,119 @@
+/* .Setting{
+    width: 90%; 
+    height: 30%; 
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 2px solid white; 
+    display: flex; 
+    border-radius: 6px;
+}
+.Setting:hover {
+    cursor: pointer;
+}
+.Setting:hover .SettingLogo{
+    width: 24px; 
+    height: 24px;
+    margin-left: 5%;
+    margin-top: 2%;
+    filter: invert(50%) sepia(27%) saturate(4473%) hue-rotate(198deg) brightness(109%) contrast(102%);
+}
+.Setting:hover .SettingText{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #489CFF;   
+}
+.SettingLogo{
+    width: 24px; 
+    height: 24px;
+    margin-left: 5%;
+    margin-top: 2%;
+    /* border: 2px solid blue;     
+}
+.SettingText{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--textgrey);
+}
+.SelectedSetting{
+    width: 90%; 
+    height: 35%; 
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 2px solid white; 
+    display: flex; 
+    border-radius: 6px;
+    background-color:  #b0d1f5;
+}
+.SelectedSettingLogo{
+    width: 24px; 
+    height: 24px;
+    margin-left: 5%;
+    margin-top: 2%;
+    filter: invert(50%) sepia(27%) saturate(4473%) hue-rotate(198deg) brightness(109%) contrast(102%);
+}
+.SelectedSettingText{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #489CFF;      
+} */
+
+.Logout{
+    width: 80%; 
+    height: 30%; 
+    margin-top: 1.5%;
+    margin-left: 7.5%;
+    border: 2px solid white; 
+    display: flex; 
+    border-radius: 6px;
+}
+.Logout:hover {
+    cursor: pointer;
+}
+.Logout:hover .LogoutLogo{
+    width: 24px; 
+    height: 24px;
+    filter: invert(50%) sepia(27%) saturate(4473%) hue-rotate(198deg) brightness(109%) contrast(102%);
+}
+.Logout:hover .LogoutText{
+    margin: 0;
+    margin-left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #489CFF;   
+}
+.LogoutLogo{
+    width: 24px; 
+    height: 24px;
+    /* border: 2px solid blue;     */
+}
+.LogoutText{
+    margin: 0;
+    margin-left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--textgrey);
+}
